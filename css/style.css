@@ -1,0 +1,42 @@
+body{
+   color: #0b4428;
+  
+}
+h1{
+   text-align: center;
+   margin-top: 70px;
+   font-size: 40px;
+}
+.wrap {
+   width: 390px;
+   height: 390px;
+   margin: 50px auto;
+   display: flex;
+   text-align: center;
+   position: relative;
+}
+.row {
+   height: 120px;
+}
+.cell {
+   width: 120px;
+   height: 100%;
+   border: 5px solid #fff;
+  background-color: rgb(189, 235, 187);
+  line-height: 50%;
+  font-size: 150px;
+  text-align: center;
+  /* transition-duration: 1s; */
+}
+.cell:hover{
+   background-color:  rgb(153, 219, 149);
+}
+canvas {
+   position:absolute;
+}
+.myCanvas {
+   position:absolute;
+   background-color: rgb(78, 190, 78);
+   transform-origin: 0 0;
+}
+  
